@@ -83,6 +83,5 @@ class _ViewModelBuilderState<T extends BaseViewModel>
     super.dispose();
 
     widget.onDispose?.call(viewModel!);
-    viewModel?.dispose();
   }
 }
